@@ -1,0 +1,176 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'ccs';
+    src: url(fontes/dex-gothic-d.otf), format(opentype);
+}
+
+:root {
+    --cor1: #F26B24;
+    --cor2: #EEDEBD;
+    --cor3: #0F0F0F;
+
+    --font-ccs: ccs;
+    --font-h2: Arial ;
+
+}
+
+/* Body */ 
+
+body{
+    background-color: black;
+    margin: 0px;
+
+}
+
+/* Header */ 
+
+header{
+    background-color: black;
+    padding: 20px 0px 0px 0px
+}
+
+picture > img{
+    display: block;
+    margin: auto;
+}
+
+h2#fccs{
+    color: white;
+    font-family: var(--font-ccs);
+    margin: 0px;
+    text-align: center;
+}
+
+.str{
+    color: var(--cor1);
+}
+
+
+
+/* Nav */ 
+
+nav{
+    background-color: black;
+    padding: 8px;
+}
+
+nav > a{
+    display: inline;
+    text-align: start;
+    text-decoration: none;
+    color: white;
+    margin-right: 9px;
+}
+
+.menu:hover{
+    background-color: #f26c24;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.menu:active{
+    background-color: #f56112;
+}
+
+.img-icon{
+    margin-left: 5px;
+    margin-bottom: -5px;
+}
+
+
+/* LinksMenu */
+
+
+
+/* Main */ 
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+h2{
+    font-family: var(--font-h2);
+    padding: 15px;
+    margin-left: 95px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 30px; margin-bottom: 30px;
+    max-width: 630px;
+    min-width: 250;
+    
+}
+
+a#call{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(55, 154, 247);
+    padding: 10px;
+    border-radius: 4px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+strong{
+    color: var(--cor1);
+}
+
+
+ul{
+   justify-items: center;
+
+}
+
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+picture{
+    display: block; 
+    text-align: center;
+}
+
+.games-icon{
+    display: inline-block;
+}
+
+
+
+/* Links */
+
+
+
+
+
+
+
+
+
+
+/* Footer */ 
+
+footer{
+    color: white;
+    background-color: black;
+    
+}
+
+footer > p{
+    text-align: center;
+}
