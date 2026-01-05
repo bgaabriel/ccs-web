@@ -59,6 +59,9 @@ img{
 /*Estilos NavBar*/ 
 
 header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
     background-color: var(--primary-color);
 }
 
@@ -69,14 +72,24 @@ header .navbar{
     justify-content: space-between;
 }
 
+.section-content{
+    margin: 0 auto;
+    padding: 0 20 px;
+    max-width: var(--site-max-width);
+}
+
 .navbar .nav-menu{
     display: flex;
     gap: 10px;
 }
 
 .navbar .nav-logo .logo-text{
-    color:var(--white-color)
+    color:var(--white-color);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    
 }
+
 
 .navbar .nav-menu .nav-link{
     padding: 10px 18px;
@@ -90,3 +103,46 @@ header .navbar{
 color: var(--white-color);   
 background-color: var(--secondary-color);
 }
+
+.hero-section{
+    background-color: var(--primary-color);
+    min-height: 100vh;
+}
+
+.hero-section .section-content{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--white-color);
+    justify-content: space-between;
+}
+
+.hero-section .hero-details .title{
+    font-size: var(--font-size-xxl);
+    color: var(--secondary-color);
+    font-family:"Miniver", sans-serif ;
+} 
+
+.hero-section .hero-details .subtitle{  
+    margin-top: 8px;
+    max-width: 70%;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+
+}
+
+.hero-section .hero-details .description{
+    max-width: 70%;
+    margin: 24px 0 40px;
+    font-size: var(--font-size-m);
+}
+
+.hero-section .hero-details .button{
+    
+}
+
+.hero-section .hero-image-wrapper{
+    max-width: 500px;
+    margin-right: 30px;
+}
+
